@@ -8,6 +8,11 @@ namespace ViewData_MVC.Controllers
 {
     public class HomeController : Controller
     {
+     /// <summary>
+     /// ViewData["Message"]
+     /// 2024/05/29
+     /// </summary>
+     /// <returns></returns>
         public ActionResult Index()
         {
             ViewData["Message"] = "Hello World!";
